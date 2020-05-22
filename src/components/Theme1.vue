@@ -213,7 +213,10 @@
             :class="[activeTab == tab.title ? 
             'ct-active': '',
             'nav-tab ct-dark-text mr-2 px-6 font-weight-regular']"
-        >{{ tab.title }}</v-tab>
+
+
+
+        >{{ tab.title }} new text</v-tab>
         </v-tabs>
     </v-container>
     
